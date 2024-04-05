@@ -1,3 +1,3 @@
-#JS VANILA CHALLENGE
+# JS VANILA CHALLENGE
 
 I make todo-list
