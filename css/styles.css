@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contents {
+  font-weight: 500;
+  color: white;
+  position: fixed;
+  top: 250px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#todo-form input {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#todo-form input:focus {
+  outline: none;
+  text-decoration: none;
+}
+#todo-form input:focus::placeholder {
+  opacity: 0;
+}
+
+#todo-form input::placeholder {
+  text-align: center;
+  color: white;
+}
+
+#clock {
+  margin: 0;
+  font-size: 130px;
+}
+#weather {
+  font-weight: 600;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  right: 20px;
+}
+#quote {
+  color: white;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  position: fixed;
+  z-index: 1;
+  bottom: 10px;
+  left: 20px;
+}
+#quote span:last-child {
+  font-size: 14px;
+}
+
+img {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
