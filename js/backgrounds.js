@@ -1,4 +1,4 @@
-const backgrounds = ["0.jpeg", "1.jpeg", "2.jpeg", "3.jpeg"];
+const backgrounds = ["0.jpeg", "1.jpeg", "2.jpeg"];
 
 const randomBackground =
   backgrounds[Math.floor(Math.random() * backgrounds.length)];
