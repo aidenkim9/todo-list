@@ -20,7 +20,7 @@ function paintToDo(newToDoObj) {
   span.innerText = newToDoObj.text;
   li.id = newToDoObj.id;
   const button = document.createElement("button");
-  button.innerText = "❌";
+  button.innerText = "done";
   li.appendChild(span);
   li.appendChild(button);
   todoList.appendChild(li);
