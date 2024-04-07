@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 #contents {
   font-weight: 500;
   color: white;
@@ -23,6 +24,37 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#login-form input,
+#login-form button {
+  border-radius: 10px;
+  border: none;
+}
+#login-form input {
+  font-size: 15px;
+  margin-right: 5px;
+  padding: 15px 20px;
+}
+
+#login-form button {
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+#login-form button:hover {
+  background-color: tomato;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#login-form input:focus {
+  outline: none;
+}
+#login-form input:focus::placeholder {
+  opacity: 0;
+}
+
+#after-login {
+  text-align: center;
 }
 
 #greeting {
